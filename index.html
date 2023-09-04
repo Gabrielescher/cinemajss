@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Gabriel Salvador Escher">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Album De Figurinhas</title>
+    <script src="js/script.js"></script>
+</head>
+<section id="Busca">
+    <img src="images/lupa2.png" width="20" height="10" alt="Sumiu"/>
+    <input type="text" id="txtBusca" placeholder="Seu nome"/>
+    <button onclick="Mensagem();" id="btnBusca">Buscar</button>
+</section>
+
+<body>
+    <html>
+        <style>
+            .sidebar {
+    height: 100%
+    width 150px;
+    position: static;
+    top: 0;
+    left:0;
+    background-color: #E0EEEE;
+    padding-top: 20px;
+    color:aqua
+}
+ .sidebar a{
+    padding:10px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #268;
+    display:block;
+
+ }
+ .sidebar a:hover{
+    background-color: #555;
+
+ }
+ #openSidebar{
+    position: fixed;
+    left:20px;
+    top:20px;
+    cursor:pointer;
+ }
+        </style>
+    </html>
+    
+        <div id="mySidebar" class="sidebar">
+            <a href="#" onclick="openNav()">&#10005; <img src="images/sidebar.png "width=50px height="50px"></a>
+            <a href="#" onclick="closeNav()">&#10005; </a>
+        
+        
+    <div>
+    <div style="margin-left: 250px; padding:20px;">
+    <h1></h1>
+    <p></p>
+    </div>
+    <script>
+        function openNav(){
+        document.getElementById("mySidebar").style.width="250px";
+        }
+        function closeNav(){
+            document.getElementById("mySidebar").style.width ="0"
+        }
+    </script>
+
+
+
+    <main class="container">
+
+    <section>
+        <section class="box" id="red">
+            <img src="images/homemaranha.jfif" width="240" height="180">
+            <h4>Homem-aranha sem volta pra casa</h4>
+            <h6>E o personagem principal do jogo </h6>
+        </section>
+
+        <section class="box" id="red">
+            <img src="Images/barbie.webp " width="240" height="180">
+            <h4>Barbie</h4>
+            <h6>A história acompanha a Barbie Estereotípica, que vive em um lugar perfeito, na companhia de amigas perfeitas (as outras Barbies), fazendo coisas divertidas e imersa na certeza de que a sua invenção fez bem para meninas no mundo real.</h6>
+            
+    
+            
+        </section>
+
+      
+    </section>
+
+    <section>
+        <section class="box" id="red">
+            <img src="Images/matrix.jfif" width="240" height="180">
+            <h4>Matrix</h4>
+            <h6>E a personagem principal do jogo</h6>
+        </section>
+
+        <section class="box" id="red">
+            <img src="Images/panico.webp" width="240" height="180">
+            <h4>panico seis</h4>
+            <h6>Filme de terror</h6>
+        </section>
+
+        
+    </section>
+
+    <section>
+        <section class="box" id="red">
+            <img src="Images/download.jfif" width="240" height="180"> 
+        <h4>The flash</h4>
+        <h6>O filme The Flash será baseado na HQ Ponto de Ignição, na qual Barry Allen volta no tempo para evitar o assassinato de sua mãe – no entanto, ao alterar o passado, o herói causa problemas inimagináveis para sua linha do tempo, que vão afetar todo o destino do universo DC como conhecemos até então.</h6>
+           
+        </section>
+
+        <section class="box" id="red">
+            <img src="Images/planeta.jfif" width="240" height="180">
+            <p>Planeta dos Macacos</p>
+        </section>
+
+       
+    </section>
+
+    </main>
+
+<footer>
+             
+</footer>
+</body>
+
+</html>
